@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&family=Merriweather:wght@900&display=swap');
 
+.logo {
+    max-height: 150px;
+    width: auto;
+}
+
 :root {
     --clr-black: black;
     --clr-gray: gray;
@@ -44,106 +49,106 @@ button {
     font-family: 'Merriweather', serif;
 }
 
-#normal {
+.normal {
     background-color: var(--type-normal);
     color: var(--clr-black);
 }
 
-#fire {
+.fire {
     background-color: var(--type-fire);
     color: var(--clr-black);
 }
 
-#water {
+.water {
     background-color: var(--type-water);
     color: var(--clr-black);
 }
 
-#electric {
+.electric {
     background-color: var(--type-electric);
     color: var(--clr-black);
 }
 
 
-#grass {
+.grass {
     background-color: var(--type-grass);
     color: var(--clr-black);
 }
 
 
-#ice {
+.ice {
     background-color: var(--type-ice);
     color: var(--clr-black);
 }
 
 
-#fighting {
+.fighting {
     background-color: var(--type-fighting);
     color: var(--clr-black);
 }
 
 
-#poison {
+.poison {
     background-color: var(--type-poison);
     color: var(--clr-black);
 }
 
 
-#ground {
+.ground {
     background-color: var(--type-ground);
     color: var(--clr-black);
 }
 
 
-#flying {
+.flying {
     background-color: var(--type-flying);
     color: var(--clr-black);
 }
 
 
-#psychic {
+.psychic {
     background-color: var(--type-psychic);
     color: var(--clr-black);
 }
 
 
-#bug {
+.bug {
     background-color: var(--type-bug);
     color: var(--clr-black);
 }
 
 
-#rock {
+.rock {
     background-color: var(--type-rock);
     color: var(--clr-black);
 }
 
 
-#ghost {
+.ghost {
     background-color: var(--type-ghost);
     color: var(--clr-black);
 }
 
 
-#dragon {
+.dragon {
     background-color: var(--type-dragon);
     color: var(--clr-black);
 }
 
 
-#dark {
+.dark {
     background-color: var(--type-dark);
     color: var(--clr-black);
 }
 
 
-#steel {
+.steel {
     background-color: var(--type-steel);
     color: var(--clr-black);
 }
 
 
-#fairy {
+.fairy {
     background-color: var(--type-fairy);
     color: var(--clr-black);
 }
