@@ -5,6 +5,11 @@
     width: auto;
 }
 
+img {
+    max-height: 100px;
+    width: auto;
+}
+
 :root {
     --clr-black: black;
     --clr-gray: gray;
