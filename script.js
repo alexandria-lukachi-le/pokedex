@@ -19,4 +19,30 @@ function showPokemon(poke) {
     } else if (pokeId.length === 2) {
         pokeId = "0" + pokeId;
     }
+
+    const div = document.createElement("div");
+    div.classList.add("pokemon");
+    div.innerHTML = `
+
+    <p class="pokemon-id-back">${pokeId}</p>
+    <div class="pokemon-image">
+        <img src="${poke.sprites.front_default}" alt="${poke.name}">
+    </div>
+    <div class="pokemon-info">
+        <div class="name-container">
+            <p class="pokemon-num">${pokeId}</p>
+            <h2 class="pokemon-name">${poke.name}</h2>
+        </div>
+        
+        <div class="pokemon-type">
+            ${types}
+        </div>
+
+        <div class="pokemon-stats">
+        <p class="stat">${poke.height}</p>
+        <p class="stat">${poke.weight}</p>
+        </div>
+    </div>
+    `;
+    pokemonList.append(div);
 }
